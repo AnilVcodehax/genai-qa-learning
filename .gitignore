@@ -1,4 +1,4 @@
+#Ignore API key files and pyc files
 __pycache__/
 *.pyc
-screenshots/
 Atest_generator.py
