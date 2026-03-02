@@ -1,0 +1,18 @@
+{
+  "test_cases": [
+    {
+      "scenario": "Valid Login Test",
+      "url": "https://the-internet.herokuapp.com/",
+      "username": "tomsmith",
+      "password": "SuperSecretPassword!",
+      "expected_message": "You logged into a secure area!"
+    },
+    {
+      "scenario": "Invalid Login Test",
+      "url": "https://the-internet.herokuapp.com/",
+      "username": "wronguser",
+      "password": "wrongpassword",
+      "expected_message": "Your username is invalid!"
+    }
+  ]
+}

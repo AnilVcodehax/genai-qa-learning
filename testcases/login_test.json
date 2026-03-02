@@ -1,0 +1,22 @@
+[
+  {
+    "test_name": "Valid Login Test",
+    "steps": [
+      { "action": "open_url", "value": "https://the-internet.herokuapp.com/login" },
+      { "action": "enter_text", "locator": "username", "value": "tomsmith" },
+      { "action": "enter_text", "locator": "password", "value": "SuperSecretPassword!" },
+      { "action": "click", "locator": "login" },
+      { "action": "assert_text", "locator": "flash", "value": "You logged into a secure area!" }
+    ]
+  },
+  {
+  "test_name": "Invalid Login Test",
+  "steps": [
+    { "action": "open_url", "value": "https://the-internet.herokuapp.com/login" },
+    { "action": "enter_text", "locator": "username", "value": "wronguser" },
+    { "action": "enter_text", "locator": "password", "value": "wrongpass" },
+    { "action": "click", "locator": "login" },
+    { "action": "assert_text", "locator": "flash", "value": "Your username is invalid!" }
+  ]
+}
+]

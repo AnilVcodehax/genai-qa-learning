@@ -1,0 +1,366 @@
+2026-03-02 15:46:02,291 | INFO | KeywordEngine | Logger - Submitting form using submit():
+2026-03-02 15:46:03,014 | INFO | KeywordEngine | Logger -Current URL during assert:
+2026-03-02 15:46:03,078 | INFO | KeywordEngine | Logger -Actual message:
+2026-03-02 15:48:53,106 | INFO | KeywordEngine | Logger - Submitting form using submit():
+2026-03-02 15:48:54,231 | INFO | KeywordEngine | Logger -Current URL during assert:
+2026-03-02 15:48:54,284 | INFO | KeywordEngine | Logger -Actual message:
+2026-03-02 15:48:54,286 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 15:48:54,912 | INFO | KeywordEngine | Logger - Submitting form using submit():
+2026-03-02 15:48:56,869 | INFO | KeywordEngine | Logger -Current URL during assert:
+2026-03-02 15:48:56,933 | INFO | KeywordEngine | Logger -Actual message:
+2026-03-02 15:48:56,934 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 15:54:06,393 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 15:54:06,395 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 15:54:09,727 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 15:54:09,923 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 15:54:10,128 | INFO | KeywordEngine | Step 4: click
+2026-03-02 15:54:10,150 | INFO | KeywordEngine | Logger - Submitting form using submit():
+2026-03-02 15:54:10,842 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 15:54:10,851 | INFO | KeywordEngine | Logger -Current URL during assert:
+2026-03-02 15:54:10,911 | INFO | KeywordEngine | Logger -Actual message:
+2026-03-02 15:54:10,913 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 15:54:10,913 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 15:54:10,914 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 15:54:11,185 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 15:54:11,372 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 15:54:11,524 | INFO | KeywordEngine | Step 4: click
+2026-03-02 15:54:11,538 | INFO | KeywordEngine | Logger - Submitting form using submit():
+2026-03-02 15:54:12,154 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 15:54:12,166 | INFO | KeywordEngine | Logger -Current URL during assert:
+2026-03-02 15:54:12,231 | INFO | KeywordEngine | Logger -Actual message:
+2026-03-02 15:54:12,232 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 15:58:43,460 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 15:58:43,461 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 15:58:46,717 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 15:58:46,999 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 15:58:46,999 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 15:58:47,273 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 15:58:47,274 | INFO | KeywordEngine | Step 4: click
+2026-03-02 15:59:57,899 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 15:59:57,901 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 16:00:00,905 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 16:00:01,263 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 16:00:01,263 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 16:00:01,464 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 16:00:01,464 | INFO | KeywordEngine | Step 4: click
+2026-03-02 16:02:15,178 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 16:02:15,179 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 16:02:18,170 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 16:02:18,545 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 16:02:18,546 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 16:02:18,810 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 16:02:18,811 | INFO | KeywordEngine | Step 4: click
+2026-03-02 16:07:07,409 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 16:07:07,410 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 16:07:10,323 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 16:07:10,659 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 16:07:10,659 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 16:07:10,900 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 16:07:10,900 | INFO | KeywordEngine | Step 4: click
+2026-03-02 16:07:10,912 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 16:07:11,470 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 16:07:11,490 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/secure
+2026-03-02 16:07:11,576 | INFO | KeywordEngine | Actual message:You logged into a secure area!
+×
+2026-03-02 16:07:11,577 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 16:07:11,578 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 16:07:11,579 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 16:07:11,881 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 16:07:12,136 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 16:07:12,137 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 16:07:12,362 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 16:07:12,363 | INFO | KeywordEngine | Step 4: click
+2026-03-02 16:07:12,387 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 16:07:12,923 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 16:07:12,939 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/login
+2026-03-02 16:07:13,011 | INFO | KeywordEngine | Actual message:Your username is invalid!
+×
+2026-03-02 16:07:13,011 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 16:15:10,710 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 16:15:10,711 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 16:15:13,609 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 16:15:13,949 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 16:15:13,949 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 16:15:14,164 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 16:15:14,165 | INFO | KeywordEngine | Step 4: click
+2026-03-02 16:15:14,178 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 16:15:14,777 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 16:15:14,794 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/secure
+2026-03-02 16:15:14,898 | INFO | KeywordEngine | Actual message:You logged into a secure area!
+×
+2026-03-02 16:15:14,899 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 16:15:14,899 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 16:15:14,900 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 16:15:15,176 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 16:15:15,389 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 16:15:15,390 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 16:15:15,633 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 16:15:15,633 | INFO | KeywordEngine | Step 4: click
+2026-03-02 16:15:15,655 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 16:15:16,197 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 16:15:16,218 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/login
+2026-03-02 16:15:16,291 | INFO | KeywordEngine | Actual message:Your username is invalid!
+×
+2026-03-02 16:15:16,292 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 21:32:53,542 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 21:32:53,543 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:32:54,564 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:32:57,029 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 21:32:57,029 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:32:57,239 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 21:32:57,240 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:32:57,265 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:32:57,859 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:38:04,046 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 21:38:04,075 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:38:08,162 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:38:08,419 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 21:38:08,419 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:38:08,608 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 21:38:08,609 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:38:08,628 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:38:09,259 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:38:09,269 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/secure
+2026-03-02 21:38:09,341 | INFO | KeywordEngine | Actual message:You logged into a secure area!
+×
+2026-03-02 21:38:09,342 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 21:38:09,343 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 21:38:09,343 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:38:09,636 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:38:09,880 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 21:38:09,881 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:38:10,088 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 21:38:10,089 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:38:10,111 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:38:10,774 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:38:10,787 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/login
+2026-03-02 21:38:10,844 | INFO | KeywordEngine | Actual message:Your username is invalid!
+×
+2026-03-02 21:38:10,846 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 21:45:42,876 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 21:45:42,883 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:45:44,129 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:45:47,314 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 21:45:47,321 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:45:47,837 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 21:45:47,839 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:45:47,891 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:45:48,735 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:45:48,771 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/secure
+2026-03-02 21:45:48,945 | INFO | KeywordEngine | Actual message:You logged into a secure area!
+×
+2026-03-02 21:45:48,949 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 21:45:48,950 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 21:45:48,951 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:45:49,404 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:45:49,841 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 21:45:49,842 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:45:50,291 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 21:45:50,295 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:45:50,427 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:45:51,258 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:45:51,289 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/login
+2026-03-02 21:45:51,390 | INFO | KeywordEngine | Actual message:Your username is invalid!
+×
+2026-03-02 21:45:51,391 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 21:47:56,889 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 21:47:56,903 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:48:01,948 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:48:02,251 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 21:48:02,252 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:48:02,388 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 21:48:02,389 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:48:02,412 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:48:03,011 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:48:03,023 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/secure
+2026-03-02 21:48:03,099 | INFO | KeywordEngine | Actual message:You logged into a secure area!
+×
+2026-03-02 21:48:03,100 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 21:48:03,101 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 21:48:03,101 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:48:03,411 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:48:03,584 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 21:48:03,585 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:48:03,851 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 21:48:03,852 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:48:03,890 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:48:04,473 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:48:04,493 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/login
+2026-03-02 21:48:04,555 | INFO | KeywordEngine | Actual message:Your username is invalid!
+×
+2026-03-02 21:48:04,556 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 21:52:21,028 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 21:52:21,035 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:52:24,367 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:52:24,662 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 21:52:24,663 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:52:24,867 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 21:52:24,867 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:52:24,885 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:52:25,524 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:52:25,540 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/secure
+2026-03-02 21:52:25,617 | INFO | KeywordEngine | Actual message:You logged into a secure area!
+×
+2026-03-02 21:52:25,618 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 21:52:25,619 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 21:52:25,620 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 21:52:25,938 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 21:52:26,108 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 21:52:26,109 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 21:52:26,326 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 21:52:26,327 | INFO | KeywordEngine | Step 4: click
+2026-03-02 21:52:26,348 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 21:52:26,906 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 21:52:26,920 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/login
+2026-03-02 21:52:26,970 | INFO | KeywordEngine | Actual message:Your username is invalid!
+×
+2026-03-02 21:52:26,971 | ERROR | KeywordEngine | Assertion failed: Expected ' Your username is invalid!' but got 'Your username is invalid!
+×'
+2026-03-02 22:03:01,249 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 22:03:01,250 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:03:04,484 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:03:04,884 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 22:03:04,885 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:03:05,192 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 22:03:05,193 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:03:05,218 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:03:05,807 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:03:05,821 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/secure
+2026-03-02 22:03:05,892 | INFO | KeywordEngine | Actual message:You logged into a secure area!
+×
+2026-03-02 22:03:05,894 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 22:03:05,895 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 22:03:05,896 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:03:06,209 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:03:06,453 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 22:03:06,454 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:03:06,677 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 22:03:06,678 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:03:06,698 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:03:07,259 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:03:07,272 | INFO | KeywordEngine | Current URL during assert:https://the-internet.herokuapp.com/login
+2026-03-02 22:03:07,333 | INFO | KeywordEngine | Actual message:Your username is invalid!
+×
+2026-03-02 22:03:07,333 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 22:10:55,014 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 22:10:55,015 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:10:58,296 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:10:58,516 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 22:10:58,517 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:10:58,769 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 22:10:58,770 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:10:58,810 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:10:59,511 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:10:59,572 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 22:10:59,572 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 22:10:59,573 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:10:59,906 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:11:00,158 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 22:11:00,159 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:11:00,318 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 22:11:00,319 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:11:00,329 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:11:00,950 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:11:01,025 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 22:38:58,339 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 22:38:58,341 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:39:02,923 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:39:03,254 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 22:39:03,254 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:39:03,537 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 22:39:03,538 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:39:03,566 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:39:04,091 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:39:04,249 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 22:39:04,250 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 22:39:04,250 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:39:04,588 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:39:04,815 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 22:39:04,816 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:39:05,048 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 22:39:05,049 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:39:05,066 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:39:05,609 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:39:05,683 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 22:40:28,250 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 22:40:28,251 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:40:31,773 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:40:32,104 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 22:40:32,105 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:40:32,357 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 22:40:32,357 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:40:32,380 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:40:32,995 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:40:33,065 | INFO | KeywordEngine | ===== Logger Completed Test: Valid Login Test =====
+2026-03-02 22:40:33,066 | INFO | KeywordEngine | 
+===== Executing Test: Invalid Login Test =====
+2026-03-02 22:40:33,066 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:40:33,399 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:40:33,570 | INFO | KeywordEngine | Entered text into username: wronguser
+2026-03-02 22:40:33,570 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:40:33,728 | INFO | KeywordEngine | Entered text into password: wrongpass
+2026-03-02 22:40:33,729 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:40:33,740 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:40:34,355 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:40:34,448 | INFO | KeywordEngine | ===== Logger Completed Test: Invalid Login Test =====
+2026-03-02 22:41:43,404 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 22:41:43,413 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:41:47,369 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:41:47,709 | INFO | KeywordEngine | Entered text into username:  tomsmith
+2026-03-02 22:41:47,709 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:41:47,964 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 22:41:47,965 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:41:47,996 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:41:48,613 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:41:48,946 | ERROR | KeywordEngine | Assertion failed on step 5: Expected 'You logged into a secure area!' but got 'Your username is invalid!
+×'
+2026-03-02 22:42:52,657 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 22:42:52,665 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:42:55,874 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:42:56,186 | INFO | KeywordEngine | Entered text into username: tom smith
+2026-03-02 22:42:56,187 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:42:56,470 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 22:42:56,471 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:42:56,501 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:42:57,047 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:42:57,306 | ERROR | KeywordEngine | Assertion failed on step 5: Expected 'You logged into a secure area!' but got 'Your username is invalid!
+×'
+2026-03-02 22:43:52,492 | INFO | KeywordEngine | 
+===== Executing Test: Valid Login Test =====
+2026-03-02 22:43:52,499 | INFO | KeywordEngine | Step 1: open_url
+2026-03-02 22:43:56,818 | INFO | KeywordEngine | Step 2: enter_text
+2026-03-02 22:43:57,099 | INFO | KeywordEngine | Entered text into username: tomsmith
+2026-03-02 22:43:57,100 | INFO | KeywordEngine | Step 3: enter_text
+2026-03-02 22:43:57,364 | INFO | KeywordEngine | Entered text into password: SuperSecretPassword!
+2026-03-02 22:43:57,365 | INFO | KeywordEngine | Step 4: click
+2026-03-02 22:43:57,405 | INFO | KeywordEngine | Logger - Submitting form using submit():login
+2026-03-02 22:43:58,023 | INFO | KeywordEngine | Step 5: assert_text
+2026-03-02 22:43:58,294 | ERROR | KeywordEngine | Assertion failed on step 5: Expected ' You logged into a secure area!' but got 'You logged into a secure area!
+×'
