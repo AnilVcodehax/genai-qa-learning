@@ -2,3 +2,19 @@
 __pycache__/
 *.pyc
 Atest_generator.py
+
+# Ignore logs
+logs/*.log
+
+# Ignore pytest cache
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Ignore Allure reports
+allure-results/
+reports/
+pages/reports/
+
+# Ignore screenshots
+screenshots/
