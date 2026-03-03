@@ -1,6 +1,8 @@
 import json
 from core.action_handler import ActionHandler
-from core.logger import get_logger
+from utils.logger import get_logger
+import os
+
 
 
 print("Keyword Engine Loaded---")
@@ -12,11 +14,20 @@ class KeywordEngine:
         self.action_handler = ActionHandler(driver)
 
     def execute_test_file(self, file_path):
+
+        # Get project root directory
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        # Build correct absolute path
+        file_path = os.path.join(base_dir, "config", "test_data", "login_test.json")
+
+        print("Reading file from:", file_path)  # Optional debug
+
         with open(file_path, "r") as file:
             test_cases = json.load(file)
 
         for test in test_cases:
             self.execute_test(test)
+
 
     def execute_test(self, test_data):
         test_name = test_data.get("test_name", "Unnamed Test")

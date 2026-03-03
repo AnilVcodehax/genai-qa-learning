@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from core.logger import get_logger
+from utils.logger import get_logger
 import os
 from datetime import datetime
 
