@@ -1,1 +1,0 @@
-This branch holds Allure reports
