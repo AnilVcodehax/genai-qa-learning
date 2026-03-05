@@ -1,9 +1,7 @@
 trigger:
-- main
-
+  - main
 pool:
-  vmImage: 'windows-latest'
-
+  vmImage: windows-latest
 steps:
-- script: echo "Azure Pipeline is reading this YAML correctly"
-  displayName: 'Test Step'
+  - script: echo "Azure Pipeline is reading this YAML correctly"
+    displayName: Test Step
