@@ -1,0 +1,27 @@
+trigger:
+  - main
+pool:
+  vmImage: windows-latest
+variables:
+  pythonVersion: "3.11"
+steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: $(pythonVersion)
+      addToPath: true
+  - script: |
+      python -m pip install --upgrade pip
+      pip install -r requirements.txt
+    displayName: Install dependencies
+  - script: |
+      pytest --alluredir=allure-results -v
+    displayName: Run tests
+  - script: |
+      choco install allure -y
+      allure generate allure-results --clean -o allure-report
+    displayName: Generate Allure Report
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: allure-report
+      ArtifactName: AllureReport
+      publishLocation: Container
