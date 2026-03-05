@@ -1,7 +1,7 @@
 trigger:
   - main
 pool:
-  vmImage: windows-latest
+  name: SelfHostedPool
 steps:
   - script: echo "Azure Pipeline is reading this YAML correctly"
     displayName: Test Step
